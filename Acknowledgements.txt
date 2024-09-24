@@ -1,0 +1,16 @@
+
+# Acknowledgements and Contributions
+
+## Acknowledgements
+
+  - The tools and libraries that made this project possible:
+  - **XAMPP** for local web server and MySQL.
+  - **Streamlit** (if applicable) for interactive visualizations.
+
+## Contributions
+
+If you wish to contribute to this project:
+
+1. Fork the repository.
+2. Make your changes and test them.
+3. Submit a pull request with a detailed description of what you’ve done.

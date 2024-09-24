@@ -1,0 +1,23 @@
+-- Create the Student table
+CREATE TABLE Student (
+    student_id INT PRIMARY KEY,
+    student_name VARCHAR(100),
+    department_id INT,
+    -- other fields
+);
+
+-- Create the Department table
+CREATE TABLE Department (
+    department_id INT PRIMARY KEY,
+    department_name VARCHAR(100)
+);
+
+-- Similar SQL statements for other tables...
+
+-- Example of inserting data
+INSERT INTO Student (student_id, student_name, department_id) VALUES (1, 'John Doe', 1);
+
+-- Example of a query
+SELECT student_name, department_name
+FROM Student
+JOIN Department ON Student.department_id = Department.department_id;
